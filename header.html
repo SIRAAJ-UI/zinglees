@@ -1,0 +1,70 @@
+<html>
+
+<head>
+  <title>KhaleejTimes</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    
+      
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark headertxt">
+      <div class="container">
+      <ul class="navbar-nav  mt-2 mt-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link" href="#"><i class="fa fa-envelope pr-1" style="color:orangered"></i>contact@zinglees.com</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-phone pr-1" style="color:orangered"></i>+91 8553 111 444</span></a>
+        </li>
+      </ul>
+      <form class="form-inline  my-2 my-lg-2 mr-2">
+        <button type="button" class="btn btn-sm headerbtn2 mr-sm-2 headertxt">OUR PROFILE</button>
+        <!-- <button type="button" class="btn btn-sm headerbtn my-2 my-sm-0 headertxt">REGISTER</button> -->
+      </form>
+    </div>
+    </nav>
+ 
+    <nav class="navbar navbar-expand-sm  navbar-light menubg">
+      <div class="container">
+       <a class="navbar-brand mr-auto  ml-2" href="index.html">
+           <img class="logo" src="./assets/images/logo.jpg">
+         </a>
+      <ul class="navbar-nav  mr-2  menutxt" >
+        <li class="nav-item ">
+          <a class="nav-link home active" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aboutus" href="aboutus.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link whyus" href="whyus.html">WHY US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link whatweoffer" href="whatweoffer.html">WHAT WE OFFER</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link blog" href="blog.html">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link contactus" href="contactus.html">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+
+<script>
+
+  $(document).ready(function(){
+  $('.navbar-nav .nav-link').click(function(){
+      $('.navbar-nav .nav-link').removeClass('active');
+      $(this).addClass('active');
+  })
+});
+  </script>
+</body>
+  </html>

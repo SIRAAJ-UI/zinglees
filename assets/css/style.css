@@ -1,0 +1,547 @@
+/* ------ Header_Styles ------ */
+
+body{
+  font-family: Helvetica, sans-serif;
+}
+p{
+  line-height: 26px;
+}
+.logo{
+  height:2rem;
+}
+.headertxt{
+  font-size:10px;
+}
+.menutxt{
+  color: black;
+  font-size: .9em;
+  font-weight: bold;
+}
+.menubg{
+  background-color: white;
+}
+.headerbtn{
+  border:none;
+  color:#d4d4d4;
+  font-size: 12px;
+  font-weight: bold;
+}
+.headerbtn:hover{
+  color:#d4d4d4;
+}
+.headerbtn:focus{
+  color:black;
+  border:none;
+  border-radius:5px;
+  background-color: orangered;
+}
+.headerbtn2{
+  border:none;
+  color:black;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: orangered;
+  border-radius:20px;
+  padding: 4px 15px;
+}
+.headerbtn2:hover{
+  color:#d4d4d4;
+}
+.headerbtn2:focus{
+  color:black;
+  border:none;
+  background-color: orangered;
+}
+
+.menubg .menutxt .nav-item   {
+  font-size:1em;
+}
+
+.menubg .menutxt .nav-item > .nav-link.active  {
+  color:orangered;
+}
+.headertxt .nav-link i{
+  color:orangered;
+}
+
+/* ------ ContactContent_Styles ------ */
+.bodyheader{
+  font-size: 24px;
+}
+.bodycontent {
+  color: #9c9c9cfc;
+  font-size: 16px;
+  padding: 6% 28%
+}
+.subbodycontent{
+  color:#212529;
+  font-size: 16px;
+  padding: 0% 5%
+}
+.widebodycontent{
+  color:#212529;
+  font-size: 16px;
+  padding: 0% 15%
+}
+.contact-left{
+  background-color: orangered;
+  text-align: center;
+}
+
+.contact-right-bg{
+  background-color: black;
+  text-align: center;
+  color:white;
+        }
+.btnclr{
+  background-color: orangered;
+  border:1px solid transparent;
+  color:white;
+}
+.contactform input{
+  text-indent: 14px;
+  border: 1px solid transparent;
+}
+.contactform{
+  padding: 8% 0%;
+}
+.contactform textarea{
+  height: 200%;
+}
+.fullbody{
+  background-color: #f6f6f6;  
+}
+.bodycontentstyle{
+  background-color:white    
+}
+
+/* ------ AboutContent_Styles ------ */
+.aboutbg{
+  background-image: url("../images/aboutus/trihand.png") ;
+  background-repeat: no-repeat;
+  background-position: 205% 40%;
+  background-size: 88% 138%;
+}
+
+.wwocontent, .aboutcontent {
+  background-color: #ebebeb;
+}
+  
+.hiphen {
+  color: orangered;
+  letter-spacing: -5px;
+  padding: 0px 25px;
+  font-weight: bold;
+  letter-spacing: -5px;
+}
+
+.hiphentxt {
+  font-weight: 500;
+}
+.wwoContent-left img,.aboutcontent-left img,.whyusContent-left img {
+  width:100%;
+}
+.colattachedimg{
+  background-image: url(../images/aboutus/about_tr_pic.png);
+  background-repeat: no-repeat;
+  background-position: 70% 100%;
+  background-size: 30% 82%;
+}
+/* ------ WhatWeContent_Styles ------ */
+.whatwe-bodycontent,.whyus-bodycontent{
+  padding: 6% 20%; 
+  color: #656565;
+}
+.whyus-bi1{
+  padding: 6% 55% 0% 0%; 
+  color: #656565;
+}
+.whyus-bi2{
+  padding: 6% 0% 0% 0%; 
+  color: #656565;
+}
+.wwoContent-right .nav-item{
+  background-color: white;
+}
+.wwoContent-right .nav-item > .nav-link.active  {
+  color:orangered;
+}
+.wwoContent-right .nav-item  .nav-link{
+  color:black;
+}
+.wwocontent .tab-content{
+  background-color:white;
+  height: 85%;
+  padding: 25px;
+}
+.providertxt{
+  padding-right: 2px;
+  padding-left: 0px;
+}
+.wwoprovider li{
+  padding-left: 1.3em;
+  list-style: none;
+  padding-bottom: 16px;
+  cursor:default;
+}
+.wwoprovider li:before{
+  content: "\f0a9";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: orangered;
+}
+/* ------ WhyusContent_Styles ------ */
+.whyusContent{
+  background-color: white;
+}
+.whyusContent-right ul{
+  justify-content: center;
+  width: max-content;
+  margin: auto;
+  box-shadow: 0px 1px 5px 5px #f6f6f6;
+  font-weight:bold;
+}
+.whyusContent-right li{
+  padding: 0px 25px;
+}
+.whyusContent-left{
+  width:50%;
+}
+.whyusContent-left img{
+  height: fit-content;
+}
+.whyusTappane-btn{
+  width: 50%;
+  padding-left: 38px;
+}
+.whyusPane{
+  height: fit-content;
+  padding: 25px;
+}
+.subscribeBox .flex-fill{
+  width:50%;
+  text-align: justify;
+  z-index:0;    
+  align-self: center;
+}
+.subscribeBox .flex-fill h6{
+  font-size: 12px;
+  font-weight:bold;
+}
+.subscribeBox .form-inline{
+  float: right;
+}
+.subscribeBox .form-inline input{
+  border-radius:20px;
+  font-size: 12px;
+  font-weight:bold;
+}
+.whyusContent-right .nav-item {
+  background-color: white;
+}
+
+.whyusContent-right .nav-item>.nav-link.active {
+  color: orangered;
+}
+
+.whyusContent-right .nav-item .nav-link {
+  color: black;
+}
+
+.subscribeBox {
+  background-color: orangered;
+  overflow: hidden;
+}
+.subscribeBox img {
+  position: absolute;
+  transform: rotate(48deg);
+  z-index: -1;
+  top: 1px;
+  left: 0px;
+  width: 134px;
+  height: 141px;
+  opacity: 0.3;
+}
+.subscribeBox .bgimg{
+  background: url(../bsicons/envelope-fill.svg)0 0 / 25% 100% no-repeat;
+}
+
+/* ------ HomeContent_Styles ------ */
+
+.whyusContent-right .nav-item {
+  background-color: white;
+}
+
+.whyusContent-right .nav-item>.nav-link.active {
+  color: orangered;
+}
+
+.whyusContent-right .nav-item .nav-link {
+  color: black;
+}
+.contact-right{
+  text-align: center;
+  color:white;
+  background-image: url("../images/home/Subscribe Image Bg.jpeg");
+}
+.learnmore_container {
+  background-color: orangered;
+  overflow: hidden;
+}
+
+.learnmore_container .btn {
+  border-radius: 20px;
+}
+
+.learnmore_container input {
+  float: right;
+}
+
+.learnmore_container .d-flex {
+  align-items: center;
+}
+
+.grCap {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  width: 40px;
+  height: 40px;
+  padding: 12px 0px;
+  margin: 15px;
+}
+
+.mic {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: orangered;
+  color: black;
+  width: 40px;
+  height: 40px;
+  padding: 12px 0px;
+  margin: 15px;
+}
+
+.btnsemiradius input {
+  border-radius: 30px;
+  text-align: center;
+}
+
+.homecontactform {
+  padding: 4% 0%;
+}
+
+.homecontactform textarea {
+  height: 150px;
+}
+
+/* .carousel-inner {
+height: 73%;
+} */
+
+.carousel {
+  margin-top: 0px;
+}
+#myCarousel{
+  background-color: transparent;
+}
+#myCarousel .carousel-inner {
+  padding: 10% 0% 0% 0%;
+  height: 385px;
+  background-color: transparent;
+}
+
+#myCarousel .carousel-caption {
+  color: white;
+  top: 50%;
+}
+
+#myCarousel .carousel-indicators>li {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 15%;
+}
+
+#myCarousel .carousel-indicators .active {
+  background-color: orangered;
+}
+.wl{
+  width: 32%;
+}
+.wr{
+  width:68%;
+}
+.circle{
+  background-color: orangered;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  padding: 15%;
+  font-size: 30px;
+  font-weight: bold; 
+  text-align: center;
+}
+.event-rtxt{
+  font-size: 18px;
+  font-weight: bold; 
+  text-align: center;
+}
+.event-rsmtxt{
+  line-height: 50px;
+  font-weight: bold; 
+  color: #9e9494;
+}
+#img-fluid{
+  max-width:100%;
+  height:max-content;
+}
+.text-over{
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 10%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+}
+.hr-line{
+  background-color: white;
+}
+
+.lm{
+  font-size: 10px;
+  font-weight: bold;
+  background-color: black;
+  padding: 7px 20px;
+}
+
+.blacktxt h6{
+  font-size: 14px;
+  text-align: justify;
+  width: 70%;
+  font-weight: bold;
+}
+/* ------ Footer_Styles ------ */
+.footertxt {
+  line-height: 20px;
+  font-size: 14px;
+  color: #d4d4d4;
+  padding-right: 2px;
+  padding-left: 0px;
+  cursor:pointer;
+}
+.footer-about{
+  cursor:default;
+}
+.footerh {
+  padding-bottom: 17px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  cursor:default;
+}
+
+.licensefooter {
+  background-color: #444444;
+  color: #d4d4d4;
+  font-size: 12px;
+}
+
+.fullfooter {
+  background-color: #4a4949e6;
+}
+
+.footertwitter li {
+  padding-left: 1.3em;
+  list-style: none;
+  padding-bottom: 16px;
+  cursor:default;
+}
+
+.footertwitter li:before {
+  content: "\f099";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  color: orangered;
+}
+
+.tweetlink {
+  color: orangered;
+  text-decoration: none;
+  cursor:pointer;
+}
+/*  ----- Colors ----- */
+
+
+@media(max-width:2560px){
+.aboutcontent-right p{
+  font-size: 15px;
+  padding-top: 0px;
+  line-height: 24px;
+  padding-left: 0px;
+  }
+  .aboutcontent-right{
+    padding-top: 14px;
+  }
+  /* #myCarousel .carousel-inner {
+    padding: 10% 0% 0% 0%;
+  } */
+}
+@media(max-width:1026px){
+.aboutcontent-right p{
+    font-size: 12px;
+  padding-top: 0px;
+  line-height: 23px;
+  padding-left: 0px;
+  }
+  .aboutcontent-right{
+    padding-top: 14px;
+  }
+  /* #myCarousel .carousel-inner {
+    padding: 0% 0% 0% 0%;
+  } */
+}
+@media(max-width:770px){
+.aboutcontent-right p{
+  color:pink;
+  font-size: 12px;
+  padding-top: 0px;
+  line-height: 23px;
+  padding-left: 0px;
+}
+.aboutcontent-right{
+  padding-top: 2px;
+  padding-bottom: 14px;
+}
+}
+
+.orangered{
+  background-color: orangered;
+}
+.orangeredtxt{
+  color:orangered;
+}
+.blacktxt{
+color:black;
+}
+.whitetxt{
+  color:white;
+  }
+.blackbg{
+  background-color: black;
+}
+.whitebg{
+  background-color: white;
+}
