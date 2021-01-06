@@ -1,14 +1,15 @@
 /* ------ Header_Styles ------ */
-
-body{
-  font-family: Helvetica, sans-serif;
+* {
+  font-size:14px;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 p{
   line-height: 26px;
 }
-.logo{
-  height:2rem;
-}
+
 .headertxt{
   font-size:10px;
 }
@@ -288,10 +289,50 @@ p{
   background-image: url("../images/home/Subscribe Image Bg.jpeg");
 }
 .learnmore_container {
-  background-color: orangered;
+  background-color: #EF6723;
   overflow: hidden;
 }
 
+.text-active{
+  color: #EF6723 !important;
+}
+
+.bg-dark{
+  background-color:#222222 !important;
+}
+.bg-black{
+  background-color:#000000 !important;
+
+}
+.text-orange {
+  color: #ef6723;
+}
+.bg-orange {
+  background-color: #ef6723 !important;
+}
+
+.margin-l{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.border-radius{
+  border-radius: 15px;
+  outline: none;
+  border: none;
+}
+.hypen-dash{
+  display: block;
+  height:3px;
+  width:40px;
+  background-color:#222222;
+}
+.btn-primary{
+  background-color: #ef6723;
+  border-color:#3a1502;
+}
+.btn-primary:hover{
+  background-color: #f59464;
+}
 .learnmore_container .btn {
   border-radius: 20px;
 }

@@ -2,54 +2,63 @@
 
 <head>
   <title>Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/js/bootstrap.min.css">
   <script src="./assets/js/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark headertxt">
-    <div class="container">
-      <ul class="navbar-nav  mt-2 mt-lg-0">
-        <li class="nav-item ">
-          <a class="nav-link" href="#"><i class="fa fa-envelope pr-1 .orangeredtxt"></i>contact@zinglees.com</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-phone pr-1 .orangeredtxt"></i>+91 8553 111 444</span></a>
-        </li>
-      </ul>
-      <form class="form-inline  my-2 my-lg-2 mr-2">
-        <button type="button" class="btn btn-sm headerbtn2 mr-sm-2 headertxt">OUR PROFILE</button>
-        <!-- <button type="button" class="btn btn-sm headerbtn my-2 my-sm-0 headertxt">REGISTER</button> -->
-      </form>
+  <header class=" bg-dark p-2">
+    <div class="container ">
+      <div class="row">
+        <div
+          class="col-sm-12 col-md-3 col-lg-2 text-white d-flex justify-content-center justify-content-sm-center justify-content-md-start">
+          <div class="d-flex align-items-center">
+            <i class="fa fa-envelope fa-1x text-orange mr-2" aria-hidden="true"></i>
+            info@zinglees.com
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-md-3 col-lg-2 text-white d-flex justify-content-center justify-content-sm-center justify-content-md-start">
+          <div class="d-flex align-items-center">
+          <i class="fa fa-phone fa-1x text-orange mr-2" aria-hidden="true"></i>
+          +91 8553 111 444
+        </div>
+        </div>
+        <div
+          class="col-sm-12 col-md-6 col-lg-8 d-flex justify-content-center justify-content-sm-center justify-content-md-end">
+          <button class="btn btn-primary btn-sm">OUR PROFILE</button>
+        </div>
+      </div>
     </div>
-  </nav>
-
-  <nav class="navbar navbar-expand-sm  navbar-light menubg">
-    <div class="container">
-      <a class="navbar-brand mr-auto ml-2" href="index.html">
-        <img class="logo" src="./assets/images/logo.jpg">
-      </a>
-      <ul class="navbar-nav mr-2 menutxt">
+  </header>
+  <nav class="container navbar navbar-expand-lg navbar-dark bg-white">
+    <a class="navbar-brand" href="javascript:void(0)">
+      <img class="logo" src="./assets/images/logo.jpg">
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+      <span class="navbar-toggler-icon bg-dark"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navb">
+      <ul class="navbar-nav bg-white">
         <li class="nav-item">
-          <a class="nav-link  active" href="index.html">HOME</a>
+          <a class="nav-link text-active" href="index.html">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="aboutus.html">ABOUT US</a>
+          <a class="nav-link text-dark" href="aboutus.html">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="whyus.html">WHY US</a>
+          <a class="nav-link text-dark" href="whyus.html">WHY US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="whatweoffer.html">WHAT WE OFFER</a>
+          <a class="nav-link text-dark" href="whatweoffer.html">WHAT WE OFFER</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html">BLOG</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.html">CONTACT US</a>
+          <a class="nav-link text-dark" href="contactus.html">CONTACT US</a>
         </li>
       </ul>
     </div>
@@ -80,497 +89,250 @@
     </a>
   </div>
 
-
-  <div class="container-fluid ">
-    <div class="row learnmore_container">
-      <div class="col-12">
-        <div class="container">
-          <div class="d-flex py-3">
-            <div class=" ml-1 flex-fill text-white">
-              <h6>
-                <p>
-                  ZINGLEES is a world class education evaluation enterprise focused primarily on the K-12 segment in
-                  India. We provide purposeful evaluations that enable you to accurately assess the learning process of
-                  children.
-                </p>
-              </h6>
-            </div>
-            <div class=" mr-1 px-0 flex-fill">
-              <input class="btn btn-md btn-dark lm" type="submit" value="LEARN MORE" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="learnmore_container">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <i class="fa fa-graduation-cap grCap "></i><br />
-          <h6><b>Expert Evaluators</b></h6><br />
-          <p>Independent and full time Qualified and professional evaluators who understand the knack of assessing the
-            learning spread across the globe.</p>
+      <div class="row d-flex align-items-center p-2">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+          <p class="m-0 text-white">
+            ZINGLEES is a world class education evaluation enterprise focused primarily on the K-12 segment in
+            India. We provide purposeful evaluations that enable you to accurately assess the learning process of
+            children.
+          </p>
         </div>
-        <div class="col-md-4 text-center"><i class="fa fa-microphone mic "></i><br />
-          <h6><b>Purposeful Evaluation</b></h6><br />
-          <p>Purposeful evaluations that help you learn the learnings of every child and support accordingly. </p>
-        </div>
-        <div class="col-md-4 text-center"><i class="fa fa-check grCap "></i><br />
-          <h6><b>Competitive Examination Practice Tests</b></h6><br />
-          <p>Practice is the key for for performance. Self evaluation tool that helps you with right feedbacks and
-            analytics to perform better.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row  blackbg">
-      <div class="col-12">
-        <div class="container">
-          <div class="d-flex py-4">
-            <div class=" ml-1 flex-fill text-white">
-              <h3><b>WHO ARE WE?</b><span class="hiphen">---------</span></h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row  fullbody">
-      <div class="col-12">
-        <div class="container ">
-          <div class="row">
-            <div class="col-12 py-3">
-              <p>
-                ZINGLEES partners with parents and schools all over India to facilitate their understanding of how
-                children learn across high schools in India. We act as an independent evaluation partner, focused
-                primarily upon providing diagnostic reports of every child to be able to give each child the unparalleled
-                attention that they deserve.
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-
-              <div class="row">
-                <div class="col-12 py-2">
-                  <img src="./assets/images/home/pic1.jpg" width="100%" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 py-1">
-                  <h6><b>Schools</b></h6>
-                </div>
-              </div>
-              <div class="row">
-                <p class="col-12 pt-1 pb-4">
-                  Examinations have become mere formalities. They have become rituals without a purpose. The question
-                  papers are set without a purpose, just following the template to test the memory and award marks.
-                  With the voice for learning outcome gaining strength, it is high time schools have to move from
-                  irrelevant examinations to much needed Evaluations.
-                </p>
-              </div>
-
-            </div>
-
-            <div class="col-lg-4">
-
-              <div class="row">
-                <div class="col-12 py-2">
-                  <img src="./assets/images/home/pic2.jpg" width="100%" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 py-1">
-                  <h6><b>Parents</b></h6>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 pt-1 pb-4">
-                  Parents pin their hopes on schools for around 15 years and are in for a surprise shock at the end of
-                  school education or competitive entrance examinations.
-                  Parents do not have a platform to diagnose the child's standing in various subjects at regular
-                  intervals and also do not have any dependable analytics to closely monitor the progress and identify
-                  the problem areas of the child.
-                </div>
-              </div>
-
-            </div>
-
-            <div class="col-lg-4">
-
-              <div class="row">
-                <div class="col-12 py-2">
-                  <img src="./assets/images/home/pic3.jpg" width="100%" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 py-1">
-                  <h6><b>Independent Evaluators</b></h6>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 pt-1 pb-4">
-                  cont
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12 p-0">
-        <div class="d-flex">
-          <div class="p-5 wl contact-left">
-            <h5 class="py-2"><b>CALL US</b></h5>
-            <h6 class="text-center py-2">
-              Want to know more details contact us at <br /><span class="text-center">+91 8553 111 444</span>
-            </h6>
-            <form class="form-inline btnSemiradius">
-              <input type="text" name="" id="" class="form-control mx-0 mt-4 mb-2 w-100"
-                placeholder="Enter your phone number" aria-describedby="helpId">
-              <input class="btn btn-md btn-dark w-100 py-2" type="submit" value="CONTACT ME" />
-            </form>
-          </div>
-          <div class="contact-right flex-fill wr">
-            <!-- <img src="./assets/images/home/Subscribe Image Bg.jpeg" height=377px; width=100%;> -->
-            <div id="myCarousel" class="carousel slide px-0 " data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <div class="carousel-caption">
-                    <!-- <h3><b>Caelum is Greate</b></h3> -->
-                    <p>"Caelum is a WordPress complete solution for creating a learning Management Syatem (LMS). It can
-                      help
-                      me to create courses, lessons and quizzes and manage them as easy as I want. I've learned a lot,
-                      and i
-                      highly recommend it. Thank you."</p>
-                    <h6><b>RICHARD LANGLEY</b></h6>
-                    <!-- <p>Student</p> -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="carousel-caption">
-                    <!-- <h3><b>Diane L</b></h3> -->
-                    <p>" "</p>
-                    <h6><b> </b></h6>
-                    <!-- <p>TEXT</p> -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="carousel-caption">
-                    <!-- <h3><b>Randall L</b></h3> -->
-                    <p>" "</p>
-                    <h6><b> </b></h6>
-                    <!-- <p>TEXT</p> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--  -->
-    <!-- <div class="row">
-      <div class="col-12 bodycontentstyle">
-        <div id="myCarousel" class="carousel slide px-0 " data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <div class="carousel-caption">
-                <h3><b>Caelum is Greate</b></h3>
-                <p>"Caelum is a WordPress complete solution for creating a learning Management Syatem (LMS). It can help
-                  me to create courses, lessons and quizzes and manage them as easy as I want. I've learned a lot, and i
-                  highly recommend it. Thank you."</p>
-                <h6><b>RICHARD LANGLEY</b></h6>
-                <p>Student</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-caption">
-                <h3><b>Diane L</b></h3>
-                <p>" "</p>
-                <h6><b> </b></h6>
-                <p>TEXT</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-caption">
-                <h3><b>Randall L</b></h3>
-                <p>" "</p>
-                <h6><b> </b></h6>
-                <p>TEXT</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-caption">
-                <h3><b>John D.</b></h3>
-                <p>" "</p>
-                <h6><b> </b></h6>
-                <p>TEXT</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-caption">
-                <h3><b>Jody B.</b></h3>
-                <p>" "</p>
-                <h6><b> </b></h6>
-                <p>TEXT</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!--  -->
-    <div class="container">
-      <div class="row py-5">
-        <div class="col-12">
-          <h5 class="text-center px-5 pt-2 bodyheader"><span class=" hiphen">---------</span><b>KEY OFFERINGS</b><span
-              class="hiphen">---------</span></h5>
-        </div>
-      </div>
-      <div class="row ">
-        <div class="col-lg-6 py-4">
-          <div class="row">
-            <div class="col-4">
-              <img src="./assets/images/home/pic4.jpg" width=100%;>
-            </div>
-
-            <div class="col-8">
-              <h6><b>Evaluation Partner</b></h6>
-              <p>
-                Partner with us and allow us to take over your complete evaluation process. We cover daily tests,
-                practice tests, weekly and monthly tests, term tests, revision assessments and final year exams.
-                We also provide detailed analytics on each child in order for schools and teachers to accurately monitor
-                their advancement and level of proficiency over a defined period of time.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 py-4">
-          <div class="row">
-            <div class="col-4">
-              <img src="./assets/images/home/pic5.jpg" width=100%;>
-            </div>
-
-            <div class="col-8">
-              <h6><b>National Competitive Examination Practice Centre (NCEPC)</b></h6>
-              <p>
-                It’s just not perseverance and hard work that’ll help a student clear a national level competitive
-                examination. Practice is the key. A practice that provides you detailed feedbacks highlighting the
-                strengths, needs weakness of every student will help them hone their skills accordingly and will be more
-                confident and equipped to face the competitive test irrespective of whether they are conducted at a
-                national or international level.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row ">
-        <div class="col-lg-6 py-4">
-          <div class="row">
-            <div class="col-4">
-              <img src="./assets/images/home/pic6.jpg" width=100%;>
-            </div>
-
-            <div class="col-8">
-              <h6><b>Learning Achievement Plans</b></h6>
-              <p>
-                In this proposed vertical, we will support the schools with the list of outcomes, plans and activities
-                to achieve them, a platform to exhibit the outcome. Will provide all the content, training, and
-                evaluations that are critical parts in the new pedagogy.
-                Supporting the schools in achieving their new goals, without leaning heavily on teachers and other
-                limitations will be welcomed by schools.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 py-4">
-          <div class="row">
-            <div class="col-4">
-              <img src="./assets/images/home/pic7.jpg" width=100%;>
-            </div>
-
-            <div class="col-8">
-              <h6><b>Technology Support Services</b></h6>
-              <p>
-                We've reached a stage where technology has a critical role to play in any domain including schools.
-                While there are too many vendors offering different technology based solutions to schools, only
-                affordable schools are able to subscribe to those services and a majority is deprived of these good to
-                haves as they cannot afford to these paid services.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="container">
-      <div class="row py-5">
-        <div class="col-lg-4 p-5 orangered">
-          <b>
-            <h3>WHY ZINGLEES?</h3>
-            <p>Majority of the schools have challenges in achieving their purpose of their founding or existence. Year
-              after year and report after report gives us the learning that we do not have expected learning in schools.
-              There could be varied rreasons for the schools to quote for missing out on achieving the intended
-              class/age appropriate learning outcomes.</p>
-            <p class="float-right">Know More...</p>
-          </b>
-
-        </div>
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col-sm-6 text-center">
-              <i class="fa fa-graduation-cap grCap "></i><br />
-              <h6><b>We Are Family</b></h6><br />
-              <p>Suspendisse mollis faucibus est ut tempor. Ut bibendum porttitor mauris in proin vitae semperefficitur.
-              </p>
-            </div>
-            <div class="col-sm-6 text-center">
-              <i class="fa fa-graduation-cap grCap "></i><br />
-              <h6><b>Learn With Fun</b></h6><br />
-              <p>Suspendisse mollis faucibus est ut tempor. Ut bibendum porttitor mauris in proin vitae semperefficitur.
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 text-center">
-              <i class="fa fa-graduation-cap grCap "></i><br />
-              <h6><b>Verifiable Certification</b></h6><br />
-              <p>Suspendisse mollis faucibus est ut tempor. Ut bibendum porttitor mauris in proin vitae semperefficitur.
-              </p>
-            </div>
-            <div class="col-sm-6 text-center">
-              <i class="fa fa-graduation-cap grCap "></i><br />
-              <h6><b>Be Creative</b></h6><br />
-              <p>Suspendisse mollis faucibus est ut tempor. Ut bibendum porttitor mauris in proin vitae semperefficitur.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-12 py-5 m-0 bodycontentstyle">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <h3 class="py-4"><b>EVENTS</b><span class="hiphen">---------</span></h3>
-              <div>
-                <div class="d-flex ">
-                  <div class="flex-fill pr-4 py-0">
-                    <div class="circle">21</div>
-                    <p class="event-rtxt pt-1">MAY</p>
-                  </div>
-                  <div class="flex-fill">
-                    <b>Build Education Website Using Wordpress</b></br>
-                    <small class="event-rsmtxt">
-                      <span><i class="fa fa-clock-o pr-2"></i>8:00 AM - 5:00 PM &nbsp;&nbsp;&nbsp;</span>
-                      <span><i class="fa fa-location-arrow pr-2"></i>CHICAGO, US</span>
-                    </small></br>
-                    <p>Contrary to popular belief, Lorem ipsum is not simply random text. It has roots in a piece of of
-                      classical Latin literature from 45 BC, making it over 2000 years old. </p>
-                  </div>
-                </div>
-                <div class="d-flex ">
-                  <div class="flex-fill pr-4 py-0">
-                    <div class="circle">20</div>
-                    <p class="event-rtxt pt-1">MAY</p>
-                  </div>
-                  <div class="flex-fill">
-                    <b>Build Education Website Using Wordpress</b></br>
-                    <small class="event-rsmtxt">
-                      <span><i class="fa fa-clock-o pr-2"></i>8:00 AM - 5:00 PM &nbsp;&nbsp;&nbsp;</span>
-                      <span><i class="fa fa-location-arrow pr-2"></i>CHICAGO, US</span>
-                    </small></br>
-                    <p>Contrary to popular belief, Lorem ipsum is not simply random text. It has roots in a piece of of
-                      classical Latin literature from 45 BC, making it over 2000 years old. </p>
-                  </div>
-                </div>
-                <div class="d-flex ">
-                  <div class="flex-fill pr-4 py-0">
-                    <div class="circle">10</div>
-                    <p class="event-rtxt pt-1">MAY</p>
-                  </div>
-                  <div class="flex-fill">
-                    <b>Build Education Website Using Wordpress</b></br>
-                    <small class="event-rsmtxt">
-                      <span><i class="fa fa-clock-o pr-2"></i>8:00 AM - 5:00 PM &nbsp;&nbsp;&nbsp;</span>
-                      <span><i class="fa fa-location-arrow pr-2"></i>CHICAGO, US</span>
-                    </small></br>
-                    <p>Contrary to popular belief, Lorem ipsum is not simply random text. It has roots in a piece of of
-                      classical Latin literature from 45 BC, making it over 2000 years old. </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <h3 class="py-4"><b>NEWS</b><span class="hiphen">---------</span></h3>
-              <img class="img-responsive" style="width:100%;height:90%;" src="./assets/images/home/News Image.jpg">
-              <div class="text-over">
-                <p class="headertxt"><i class="fa fa-calendar pr-2" aria-hidden="true"></i>MAY 20TH, 2016<i
-                    class="fa fa-user px-2"> </i>RUSS WEAKLEY</p>
-                <hr class="hr-line" />
-                <b>Web Development Reading List #138: Accessible Web Components And CSS And Sass Precision</b>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="row  fullbody">
-      <div class="col-12">
-        <div class="container-fluid ">
-          <div class="row">
-            <div class="col-12 pt-5">
-              <h5 class="text-center px-5  bodyheader"><span class=" hiphen">---------</span><b>CONTACT US</b><span
-                  class="hiphen">---------</span></h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <form class="homecontactform">
-                <div class="container">
-                  <div class="row">
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Name">
-                    </div>
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Email">
-                    </div>
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Website">
-                    </div>
-                    <div class="col">
-                      <input type="submit" class="form-control btnclr" value="SEND">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col pt-5">
-                      <textarea class="form-control" placeholder="Message"></textarea>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
+        <div class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-end">
+          <button class="btn btn-md btn-dark lm" value="">LEARN MORE</button>
         </div>
       </div>
     </div>
   </div>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="d-flex flex-column align-items-center">
+          <div class="grCap d-flex justify-content-center">
+            <i class="fa fa-graduation-cap "></i>
+          </div>
+          <h6 class="h5">Expert Evaluators</h6>
+          <p class="text-muted text-center">Independent and full time Qualified and professional evaluators who
+            understand the knack of assessing the
+            learning spread across the globe.</p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="d-flex flex-column align-items-center">
+          <div class="grCap d-flex justify-content-center"><i class="fa fa-microphone "></i></div>
+          <h6 class="h5">Purposeful Evaluation</h6>
+          <p class="text-muted text-center">Purposeful evaluations that help you learn the learnings of every child and
+            support accordingly. </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="d-flex flex-column align-items-center">
+          <div class="grCap d-flex justify-content-center"><i class="fa fa-check "></i></div>
+          <h6 class="h5">Competitive Examination Practice Tests</h6>
+          <p class="text-muted text-center">Practice is the key for for performance. Self evaluation tool that helps you
+            with right feedbacks and
+            analytics to perform better.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="learnmore_container bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 d-flex ">
+          <div class="h3 pt-4 pb-4 m-0 mr-2 text-white" class="m-0 text-white">
+            WHO ARE WE?
+          </div>
+          <div class="hypen-dash bg-orange"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p>
+          ZINGLEES partners with parents and schools all over India to facilitate their understanding of how
+          children learn across high schools in India.We act as an independent evaluation partner, focused
+          primarily upon providing diagnostic reports of every child to be able to give each child the
+          unparalleled attention that they deserve.
+        </p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="./assets/images/home/pic1.jpg" width="100%" />
+        <h2 class="h6 mt-2 mb-2">Schools</h2>
+        <p>
+          Examinations have become mere formalities. They have become rituals without a purpose. The question
+          papers are set without a purpose, just following the template to test the memory and award marks.
+          With the voice for learning outcome gaining strength, it is high time schools have to move from
+          irrelevant examinations to much needed Evaluations.
+        </p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="./assets/images/home/pic2.jpg" width="100%" />
+        <h2 class="h6 mt-2 mb-2">Parents</h2>
+        <p>
+          Parents pin their hopes on schools for around 15 years and are in for a surprise shock at the end of
+          school education or competitive entrance examinations.
+          Parents do not have a platform to diagnose the child's standing in various subjects at regular
+          intervals and also do not have any dependable analytics to closely monitor the progress and identify
+          the problem areas of the child.
+        </p>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="./assets/images/home/pic3.jpg" width="100%" />
+        <h2 class="h6 mt-2 mb-2">Independent Evaluators</h2>
+        <p>???</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-4 col-lg-4 bg-orange">
+      <div class="d-flex flex-column align-items-center mb-2 mt-5 mb-5">
+        <div>CALL US</div>
+        <div>Want to know more details contact us at</div>
+        <div>+91 8553 111 444</div>
+      </div>
+      <div class="d-flex flex-column align-items-center m-4">
+        <input type="text" class="w-50 p-2 mb-2 border-radius margin-l" placeholder="Enter your mobile number">
+        <button class="w-50 p-2 mb-2 border-radius bg-dark text-white">CONTACT ME</button>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-8 col-md-8">
+      <div id="myCarousel" class="carousel slide px-0 " data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+          <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <h3><b>Zinglees is Greate</b></h3>
+              <p>"Zinglees"</p>
+              <h6><b>RICHARD LANGLEY</b></h6>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="carousel-caption">
+              <p>" "</p>
+              <h6><b> </b></h6>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <p>" "</p>
+              <h6><b> </b></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center align-items-center" style="padding:40px;">
+        <div class="hypen-dash bg-orange"></div>
+        <h5 class="h3 m-0 m-2">KEY OFFERINGS</h5>
+        <div class="hypen-dash bg-orange"></div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="d-flex">
+          <img class="d-none d-sm-block" src="./assets/images/home/pic4.jpg" width=109px height=94px>
+          <div class="p-2">
+            <h5>Evaluation Partner</h5>
+            <p>
+              Partner with us and allow us to take over your complete evaluation process. We cover daily tests,
+              practice tests, weekly and monthly tests, term tests, revision assessments and final year exams.
+              We also provide detailed analytics on each child in order for schools and teachers to accurately monitor
+              their advancement and level of proficiency over a defined period of time.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="d-flex">
+          <img class="d-none d-sm-block" src="./assets/images/home/pic5.jpg" width=109px height=94px>
+          <div class="p-2">
+            <h5>National Competitive Examination Practice Centre (NCEPC)</h5>
+            <p>
+              It’s just not perseverance and hard work that’ll help a student clear a national level competitive
+              examination. Practice is the key. A practice that provides you detailed feedbacks highlighting the
+              strengths, needs weakness of every student will help them hone their skills accordingly and will be more
+              confident and equipped to face the competitive test irrespective of whether they are conducted at a
+              national or international level.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="d-flex">
+          <img class="d-none d-sm-block" src="./assets/images/home/pic6.jpg" width=109px height=94px>
+          <div class="p-2">
+            <h5>Learning Achievement Plans</h5>
+            <p>
+              In this proposed vertical, we will support the schools with the list of outcomes, plans and activities
+              to achieve them, a platform to exhibit the outcome. Will provide all the content, training, and
+              evaluations that are critical parts in the new pedagogy.
+              Supporting the schools in achieving their new goals, without leaning heavily on teachers and other
+              limitations will be welcomed by schools.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="d-flex">
+          <img class="d-none d-sm-block" src="./assets/images/home/pic6.jpg" width=109px height=94px>
+          <div class="p-2">
+            <h5>Technology Support Services</h5>
+            <p>
+              We've reached a stage where technology has a critical role to play in any domain including schools.
+              While there are too many vendors offering different technology based solutions to schools, only
+              affordable schools are able to subscribe to those services and a majority is deprived of these good to
+              haves as they cannot afford to these paid services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center align-items-center" style="padding:40px;">
+        <div class="hypen-dash bg-orange"></div>
+        <h5 class="h3 m-0 m-2">CONTACT US</h5>
+        <div class="hypen-dash bg-orange"></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+        <input class="w-100 form-control" type="text" placeholder="Name">
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+        <input class="w-100 form-control" type="text" placeholder="Email">
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+        <input class="w-100 form-control" type="text" placeholder="Website">
+      </div>
+      <div class="col-sm-12 mb-4">
+        <textarea class="form-control" rows="4" cols="50" placeholder="Message"></textarea>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3 mb-4">
+        <button class="w-100 form-control btn btn-primary border-0">SEND</button>
+      </div>
+    </div>
+  </div>
 
   <div id="footerContent"></div>
   <script>
