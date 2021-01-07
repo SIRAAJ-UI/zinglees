@@ -1,4 +1,4 @@
-/* ------ Header_Styles ------- */
+/* ------ Header_Styles ------ */
 * {
   font-size:14px;
   font-family: 'Roboto', sans-serif;
@@ -64,7 +64,6 @@ p{
 .headertxt .nav-link i{
   color:orangered;
 }
-
 /* ------ ContactContent_Styles ------ */
 .bodyheader{
   font-size: 24px;
@@ -121,10 +120,9 @@ p{
 
 /* ------ AboutContent_Styles ------ */
 .aboutbg{
-  background-image: url("../images/aboutus/trihand.png") ;
+  background-image: url("../images/aboutus/trihand1.png") ;
   background-repeat: no-repeat;
-  background-position: 205% 40%;
-  background-size: 88% 138%;
+  background-size: 100% 100%;
 }
 
 .wwocontent, .aboutcontent {
@@ -200,6 +198,7 @@ p{
 /* ------ WhyusContent_Styles ------ */
 .whyusContent{
   background-color: white;
+  justify-content: center;
 }
 .whyusContent-right ul{
   justify-content: center;
@@ -316,7 +315,9 @@ p{
 }
 .bg-black{
   background-color:#000000 !important;
-
+}
+.bg-contentgrey{
+  background-color:#f6f6f6 !important;
 }
 .text-orange {
   color: #ef6723;
