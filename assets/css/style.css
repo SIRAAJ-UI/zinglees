@@ -74,6 +74,9 @@ p{
   font-size: 16px;
   padding: 6% 28%
 }
+.bodycontent-txt {
+  color: #9c9c9cfc !important;
+}
 .subbodycontent{
   color:#212529;
   font-size: 16px;
@@ -208,11 +211,12 @@ p{
 .whyusContent-right li{
   padding: 0px 25px;
 }
-.whyusContent-left{
+/* .whyusContent-left{
   width:50%;
-}
+} */
 .whyusContent-left img{
-  height: fit-content;
+  max-width:100%;
+  height:auto;
 }
 .whyusTappane-btn{
   width: 50%;
@@ -266,8 +270,18 @@ p{
   height: 141px;
   opacity: 0.3;
 }
-.subscribeBox .bgimg{
-  background: url(../bsicons/envelope-fill.svg)0 0 / 25% 100% no-repeat;
+.bgimg{
+  background-image: url(../bsicons/envelope-fill.svg);
+  /* 0 0 / 25% 100% no-repeat; */
+  background-repeat: no-repeat;
+  background-size: 30% 100%;
+}
+
+.bgimg1{
+  background-image: url(../bsicons/envelope-fill.svg);
+  /* 0 0 / 25% 100% no-repeat; */
+  background-repeat: no-repeat;
+  background-size: 25% 100%;
 }
 
 /* ------ HomeContent_Styles ------ */
