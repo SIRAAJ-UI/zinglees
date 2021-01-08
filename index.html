@@ -2,7 +2,8 @@
 
 <head>
   <title>Home</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/js/bootstrap.min.css">
   <script src="./assets/js/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
@@ -67,16 +68,35 @@
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="./assets/images/home/Slider 1.jpeg" alt="First slide">
+        <img class="d-block w-100 simg" src="./assets/images/home/SliderA.jpg" alt="First slide">
+        <div class="slider-p px-4 mx-lg-0  slider-lite-txt">
+        <p class="h6">UNDERSTANDING YOUR UNDERSTANDING</p>
+      </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="./assets/images/home/Slider 2.jpeg" alt="Second slide">
+        <img class="d-block w-100 simg" src="./assets/images/home/SliderB.jpg" alt="Second slide">
+        <div class="slider-p px-4 mx-lg-0  slider-dark-txt">
+        <p class="h6">
+DIAGNOSE IS THE KEY TO EXCELLENCE
+        </p>
+      </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="./assets/images/home/Slider 3.jpeg" alt="Third slide">
+        <img class="d-block w-100 simg" src="./assets/images/home/SliderC.jpg" alt="Third slide">
+        <div class="slider-p px-4 mx-lg-0  slider-dark-txt">
+        <p class="h6">
+          MINDFUL INDEPENDENT ASSESSMENTS
+        </p>
+      </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="./assets/images/home/Slider 4.jpeg" alt="Fourth slide">
+        <img class="d-block w-100 simg" src="./assets/images/home/SliderD.jpg" alt="Fourth slide">
+        <div class="lastslider-p px-4 mx-lg-0  slider-lite-txt">
+        <p class="h6">
+         LEARNING ANALYTICS <br/>
+        <span class="text-right small">- AN INSIGHTFUL REPORT</span>
+        </p>
+      </div>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -89,7 +109,7 @@
     </a>
   </div>
 
-  <div class="learnmore_container">
+  <div class="learnmore_container bg-orange">
     <div class="container">
       <div class="row d-flex align-items-center p-2">
         <div class="col-sm-12 col-md-8 col-lg-8">
@@ -113,7 +133,7 @@
           <div class="grCap d-flex justify-content-center">
             <i class="fa fa-graduation-cap "></i>
           </div>
-          <h6 class="h5">Expert Evaluators</h6>
+          <h6 class="h5 text-center" id="ph">Expert Evaluators</h6>
           <p class="text-muted text-center">Independent and full time Qualified and professional evaluators who
             understand the knack of assessing the
             learning spread across the globe.</p>
@@ -123,7 +143,7 @@
       <div class="col-sm-12 col-md-4 col-lg-4">
         <div class="d-flex flex-column align-items-center">
           <div class="grCap d-flex justify-content-center"><i class="fa fa-microphone "></i></div>
-          <h6 class="h5">Purposeful Evaluation</h6>
+          <h6 class="h5 text-center" id="ph">Purposeful Evaluation</h6>
           <p class="text-muted text-center">Purposeful evaluations that help you learn the learnings of every child and
             support accordingly. </p>
         </div>
@@ -132,7 +152,7 @@
       <div class="col-sm-12 col-md-4 col-lg-4">
         <div class="d-flex flex-column align-items-center">
           <div class="grCap d-flex justify-content-center"><i class="fa fa-check "></i></div>
-          <h6 class="h5">Competitive Examination Practice Tests</h6>
+          <h6 class="h5 text-center" id="ph">Competitive Examination Practice Tests</h6>
           <p class="text-muted text-center">Practice is the key for for performance. Self evaluation tool that helps you
             with right feedbacks and
             analytics to perform better.</p>
@@ -145,8 +165,8 @@
   <div class="learnmore_container bg-dark">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 d-flex ">
-          <div class="h3 pt-4 pb-4 m-0 mr-2 text-white" class="m-0 text-white">
+        <div class="col-sm-12 d-flex">
+          <div class="h3 pt-4 pb-4 m-0 mr-2 text-white" class="m-0 text-white" id="mh">
             WHO ARE WE?
           </div>
           <div class="hypen-dash bg-orange"></div>
@@ -167,7 +187,7 @@
       </div>
       <div class="col-sm-6 col-md-4">
         <img src="./assets/images/home/pic1.jpg" width="100%" />
-        <h2 class="h5 mt-2 mb-2">Schools</h2>
+        <h2 class="h5 mt-2 mb-2" id="ph">Schools</h2>
         <p>
           Examinations have become mere formalities. They have become rituals without a purpose. The question
           papers are set without a purpose, just following the template to test the memory and award marks.
@@ -177,7 +197,7 @@
       </div>
       <div class="col-sm-6 col-md-4">
         <img src="./assets/images/home/pic2.jpg" width="100%" />
-        <h2 class="h5 mt-2 mb-2">Parents</h2>
+        <h2 class="h5 mt-2 mb-2" id="ph">Parents</h2>
         <p>
           Parents pin their hopes on schools for around 15 years and are in for a surprise shock at the end of
           school education or competitive entrance examinations.
@@ -188,7 +208,7 @@
       </div>
       <div class="col-sm-6 col-md-4">
         <img src="./assets/images/home/pic3.jpg" width="100%" />
-        <h2 class="h5 mt-2 mb-2">Independent Evaluators</h2>
+        <h2 class="h5 mt-2 mb-2" id="ph">Independent Evaluators</h2>
         <p>???</p>
       </div>
     </div>
@@ -196,53 +216,71 @@
 
   <div class="row">
     <div class="col-sm-12 col-md-4 col-lg-4 bg-orange">
-      <div class="d-flex flex-column align-items-center mb-2 mt-5 mb-5">
+      <div class="d-flex flex-column align-items-center mx-2 mt-5 mb-5">
         <div>CALL US</div>
         <div>Want to know more details contact us at</div>
         <div>+91 8553 111 444</div>
       </div>
       <div class="d-flex flex-column align-items-center m-4">
-        <input type="text" class="w-50 p-2 mb-2 border-radius margin-l" placeholder="Enter your mobile number">
-        <button class="w-50 p-2 mb-2 border-radius bg-dark text-white">CONTACT ME</button>
+        <!-- <input type="text" class="w-50 p-2 mb-2 border-radius margin-l" placeholder="Enter your mobile number">
+        <button class="w-50 p-2 mb-2 border-radius bg-dark text-white">CONTACT ME</button> -->
+        <input type="text" class="w-70 w-lg-50 p-2 mb-2 border-radius margin-l" placeholder="Enter your mobile number">
+        <button class="w-70 w-lg-50 btn btn-md px-5 mb-2 border-radius bg-dark text-white">CONTACT ME</button>
       </div>
     </div>
     <div class="col-sm-12 col-md-8 col-md-8 contact-right">
       <div id="myCarousel" class="carousel slide px-0 " data-ride="carousel">
+        
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <!-- <h3><b>Zinglees is Greate</b></h3> -->
+              <p>"
+                ZINGLEES partners with parents and schools all over India to facilitate their understanding of how
+          children learn across high schools in India.We act as an independent evaluation partner, focused
+          primarily upon providing diagnostic reports of every child to be able to give each child the
+          unparalleled attention that they deserve.
+                "</p>
+              <!-- <h6><b>RICHARD LANGLEY</b></h6> -->
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="carousel-caption ">
+               <!-- <h3><b></b></h3> -->
+              <p>" Examinations have become mere formalities. They have become rituals without a purpose. The question
+                papers are set without a purpose, just following the template to test the memory and award marks.
+                With the voice for learning outcome gaining strength, it is high time schools have to move from
+                irrelevant examinations to much needed Evaluations. "</p>
+              <h6><b> </b></h6>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption ">
+               <!-- <h3><b></b></h3> -->
+              <p>"Parents pin their hopes on schools for around 15 years and are in for a surprise shock at the end of
+                school education or competitive entrance examinations.
+                Parents do not have a platform to diagnose the child's standing in various subjects at regular
+                intervals and also do not have any dependable analytics to closely monitor the progress and identify
+                the problem areas of the child."</p>
+              <h6><b> </b></h6>
+            </div>
+          </div>
+        </div>
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class=""></li>
           <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="2" class=""></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item">
-            <div class="carousel-caption">
-              <h3><b>Zinglees is Greate</b></h3>
-              <p>"Zinglees"</p>
-              <h6><b>RICHARD LANGLEY</b></h6>
-            </div>
-          </div>
-          <div class="carousel-item active">
-            <div class="carousel-caption">
-              <p>" "</p>
-              <h6><b> </b></h6>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-caption">
-              <p>" "</p>
-              <h6><b> </b></h6>
-            </div>
-          </div>
-        </div>
       </div>
+     
     </div>
   </div>
 
   <div class="container">
     <div class="row">
-      <div class="col-12 d-flex justify-content-center align-items-center" style="padding:40px;">
+      <div class="col-12 d-flex justify-content-center align-items-center p-3 p-md-5" >
         <div class="hypen-dash bg-orange"></div>
-        <h5 class="h3 m-0 m-2">KEY OFFERINGS</h5>
+        <h5 class="h3 m-0 m-2" id="mh">KEY OFFERINGS</h5>
         <div class="hypen-dash bg-orange"></div>
       </div>
 
@@ -250,7 +288,7 @@
         <div class="d-flex">
           <img class="d-none d-sm-block p-2" src="./assets/images/home/pic4.jpg" width=109px height=94px>
           <div class="p-2">
-            <h5>Evaluation Partner</h5>
+            <h5 id="ph">Evaluation Partner</h5>
             <p>
               Partner with us and allow us to take over your complete evaluation process. We cover daily tests,
               practice tests, weekly and monthly tests, term tests, revision assessments and final year exams.
@@ -265,7 +303,7 @@
         <div class="d-flex">
           <img class="d-none d-sm-block p-2" src="./assets/images/home/pic5.jpg" width=109px height=94px>
           <div class="p-2">
-            <h5>National Competitive Examination Practice Centre (NCEPC)</h5>
+            <h5 id="ph">National Competitive Examination Practice Centre (NCEPC)</h5>
             <p>
               It’s just not perseverance and hard work that’ll help a student clear a national level competitive
               examination. Practice is the key. A practice that provides you detailed feedbacks highlighting the
@@ -281,7 +319,7 @@
         <div class="d-flex">
           <img class="d-none d-sm-block p-2" src="./assets/images/home/pic6.jpg" width=109px height=94px>
           <div class="p-2">
-            <h5>Learning Achievement Plans</h5>
+            <h5 id="ph">Learning Achievement Plans</h5>
             <p>
               In this proposed vertical, we will support the schools with the list of outcomes, plans and activities
               to achieve them, a platform to exhibit the outcome. Will provide all the content, training, and
@@ -297,7 +335,7 @@
         <div class="d-flex">
           <img class="d-none d-sm-block p-2" src="./assets/images/home/pic6.jpg" width=109px height=94px>
           <div class="p-2">
-            <h5>Technology Support Services</h5>
+            <h5 id="ph">Technology Support Services</h5>
             <p>
               We've reached a stage where technology has a critical role to play in any domain including schools.
               While there are too many vendors offering different technology based solutions to schools, only
@@ -314,7 +352,7 @@
     <div class="row">
       <div class="col-12 d-flex justify-content-center align-items-center" style="padding:40px;">
         <div class="hypen-dash bg-orange"></div>
-        <h5 class="h3 m-0 m-2">CONTACT US</h5>
+        <h5 class="h3 m-0 m-2" id="mh">CONTACT US</h5>
         <div class="hypen-dash bg-orange"></div>
       </div>
       <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
